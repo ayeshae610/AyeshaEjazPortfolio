@@ -71,29 +71,15 @@ export default function About() {
         <div>
           <div className="space-y-5 text-base leading-relaxed text-ink-muted md:text-[17px]">
             <p>
-              I am <span className="font-medium text-ink">Ayesha Ejaz</span>, an AI No-Code /
-              Low-Code Systems Engineer passionate about helping businesses streamline
-              operations through intelligent automation and AI-powered systems. I specialize
-              in designing scalable AI agents, workflow automations, voice assistants, and
-              business process automation that improve efficiency, reduce manual work, and
-              enhance customer experiences.
-            </p>
-            <p>
-              Alongside my AI expertise, I bring 2 years of professional experience in
-              Social Media Marketing and Management — developing digital strategies, managing
-              brand presence, creating content, and growing online visibility. That marketing
-              lens gives me a deeper understanding of customer journeys, letting me build AI
-              solutions that solve real business challenges.
-            </p>
-            <p>
-              My expertise spans n8n, OpenAI, VAPI, LangChain, Supabase, WhatsApp Automation,
-              API integrations, and modern no-code/low-code platforms. I focus on delivering
-              reliable, scalable, production-ready AI systems tailored to each client's needs.
-            </p>
-            <p>
-              My mission is to empower startups, agencies, and growing businesses with
-              intelligent automation that saves time, increases productivity, and lets teams
-              focus on innovation and sustainable growth.
+              I am <span className="font-medium text-ink">Ayesha Ejaz</span>, an AI No-Code / 
+              Low-Code Systems Engineer specializing in AI agents, workflow automation,
+               voice assistants, and intelligent business solutions. With 2 years of experience 
+               in Social Media Marketing and Management, I combine digital marketing expertise with 
+               modern AI technologies to build scalable automation systems that improve efficiency, 
+               streamline operations, and enhance customer experiences. My expertise includes n8n, OpenAI, 
+               VAPI, LangChain, Supabase, and other leading AI automation platforms, helping businesses
+                save time, reduce manual work, and scale with confidence.
+
             </p>
           </div>
 

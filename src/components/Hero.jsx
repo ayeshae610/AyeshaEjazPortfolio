@@ -103,13 +103,7 @@ function DashboardMock() {
         transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
         className="glass absolute -left-8 top-24 hidden rounded-2xl px-3 py-2 shadow-soft md:block"
       >
-        <div className="flex items-center gap-2">
-          <span className="grid h-8 w-8 place-items-center rounded-xl bg-emerald-500/15 text-emerald-700">◈</span>
-          <div>
-            <div className="text-[11px] font-semibold text-ink">Supabase</div>
-            <div className="text-[10px] text-ink-muted">+240 rows /min</div>
-          </div>
-        </div>
+       
       </motion.div>
 
       <motion.div
@@ -166,19 +160,27 @@ export default function Hero() {
               AI · Automation · No-Code · Low-Code
             </motion.span>
 
-            <motion.h1
-              initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
-              animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-              transition={{ duration: 1, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
-              className="mt-6 text-5xl font-semibold leading-[1.02] tracking-[-0.03em] text-ink md:text-6xl lg:text-7xl"
-            >
-              Ayesha Ejaz — Building{" "}
-              <span className="relative inline-block">
-                <span className="relative z-10">Intelligent AI Systems</span>
-                <span className="absolute inset-x-0 bottom-1 -z-0 h-3 bg-highlight/35 blur-sm" />
-              </span>{" "}
-              That Scale Businesses.
-            </motion.h1>
+            <>
+  {/* Name */}
+  <motion.h1
+    initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
+    animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+    transition={{ duration: 1, delay: 0.15, ease: [0.22, 1, 0.36, 1] }}
+    className="mt-6 text-5xl md:text-6xl lg:text-7xl font-bold tracking-[-0.03em] text-ink"
+  >
+    Ayesha Ejaz
+  </motion.h1>
+
+  {/* Tagline */}
+  <motion.p
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1, delay: 0.3 }}
+    className="mt-4 text-xl md:text-2xl font-semibold text-ink"
+  >
+    Build Intelligent AI Systems That Scale Businesses.
+  </motion.p>
+</>
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
